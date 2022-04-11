@@ -1,0 +1,165 @@
+img {
+
+    width: 140px;    
+    display: inline-block; 
+    vertical-align: middle;
+    margin-right:30px; 
+    
+}
+
+.fa-facebook {
+ padding: 10px 1px;
+    
+
+  background:#3B5998;
+    color: white;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+    float: right;
+/*  margin: 5px 2px;*/
+  
+
+}
+
+li {  display: inline; color: white; margin:30px 30px 20px 0;}
+
+
+
+ul { margin-left: 10vw; margin-right: 10vw; list-style: none outside none; padding: 0 30px;  text-align: left; }
+
+button {
+    display: inline-block;
+    float: right;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background:none; /*#0069ed*/;
+    border: 2px solid white;    
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover, button:focus {
+    background:white;
+    color:black;
+  
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+html,body {
+   
+    background-color:black;  
+    padding: 0;
+    margin: 0;
+    background: url("bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+.main{ 
+    
+    width: 80vw;
+    height: 75vh;  
+    margin: auto;    
+/*    border-top: 2px solid crimson;*/
+     border-top: 1px solid white;
+    
+    
+
+}
+
+
+.highlights{
+    
+    color: aliceblue;    
+    width: 65%;
+    height: 90%;
+/*    border: 1px solid white;*/
+    margin:2%;
+    float:left; 
+    box-sizing:border-box;
+     display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(8,1fr); 
+    grid-template-rows:repeat(6,1fr);
+    overflow: hidden;
+     
+    
+}
+
+.highlights > div {
+
+    background-color: rgba(255,255,255,0.2);
+    color: alicebluew;
+    padding:10%;
+    position: relative;
+/*    opacity:0.1;*/
+/*    border: 2px solid white;*/
+    
+}
+.raspored{
+    position: relative;
+    color: aliceblue;
+    padding:30px;
+    width: 25%;
+    height: 90%;
+    border: 1px solid white;
+    margin:2%;
+    float:right; 
+    box-sizing:border-box;
+    background-image: mylogo.jpg;
+}
+.menu{
+    background-color:cadetblue;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: wheat;
+}
+.menu a:hover{
+    background-color: gray;
+}
+@media screen and (max-width: 600px){
+       .menu{
+           flex-direction: row;
+           padding: 10px;
+       }
+       menu a{
+           background-color: indigo;
+           margin: 10px 0;
+           text-align: center;
+           border-radius: 10px;
+       }
+
+       }
+
+
+
+
+
+
+
